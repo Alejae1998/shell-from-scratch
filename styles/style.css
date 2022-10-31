@@ -2,7 +2,7 @@ main {
     background-img: url('../assets/background.jpeg');
 }
 img {
-    max-width: 200px;
+    max-width: 300px;
     padding-rigth: 1rem;
 }
 
@@ -45,7 +45,7 @@ shell img {
     position: absolute;
     height: 40px;
     width: 40px;
-    background-color: rgb(245, 233, 220);
+    background-color: #a0d2eb;
     border-radius: 50%;
     box-shadow: 5px -2px 5px rgba(113, 112, 112, 0.6);
     margin: 10px;
