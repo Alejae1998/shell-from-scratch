@@ -7,9 +7,12 @@ const img1 = document.querySelector('#img-1');
 /* Events */
 button1.addEventListener('click', () => {
     const randomPearl = Math.ceil(Math.random() * 3);
-    console.log(`randomPearl`, randomPearl);
 });
 
 /* Display Functions */
+function resetPearls() {
+    img1.classList.remove('reveal');
+}
 
+function displayResults() {}
 // (don't forget to call any display functions you want to run on page load!)
