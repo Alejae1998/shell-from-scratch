@@ -37,7 +37,7 @@ shell img {
 }
 
 .reveal {
-    transform: translateY(-100px);
+    transform: translateY(-75px);
 }
 
 .pearl {
@@ -58,4 +58,10 @@ shell img {
 
 button {
     margin-rigth: 2rem;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: lila;
+    color: black;
 }
