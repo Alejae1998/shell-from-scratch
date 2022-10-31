@@ -1,10 +1,14 @@
 /* Imports */
-
-/* Get DOM Elements */
+const button1 = document.getElementById('button-1');
+const img1 = document.querySelector('#img-1');
 
 /* State */
 
 /* Events */
+button1.addEventListener('click', () => {
+    const randomPearl = Math.ceil(Math.random() * 3);
+    console.log(`randomPearl`, randomPearl);
+});
 
 /* Display Functions */
 

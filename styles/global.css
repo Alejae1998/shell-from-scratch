@@ -1,11 +1,12 @@
 :root {
-    --background: rgb(224, 234, 247);
+    --background-img: url('../assets/background.jpeg');
     --header-background: rgb(254, 251, 245);
     --primary-font: Corbel, 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans',
         'Bitstream Vera Sans', 'Liberation Sans', Verdana, 'Verdana Ref', sans-serif;
 }
 
 body {
+    background-img: url('../assets/background.jpeg');
     font-family: var(--primary-font);
     background: var(--background);
     display: grid;

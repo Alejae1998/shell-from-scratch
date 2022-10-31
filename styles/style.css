@@ -1,3 +1,6 @@
+body {
+    background-img: url('../assets/background.jpeg');
+}
 img {
     max-width: 200px;
     padding-rigth: 1rem;
