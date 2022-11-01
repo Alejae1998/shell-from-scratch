@@ -1,39 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <!-- metadata -->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-<head>
-    <!-- metadata -->
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <!-- title and favicon -->
+        <title>Alchemy Shells game</title>
+        <link rel="icon" type="image/x-icon" href="assets/alchemy-favicon.png" />
 
-    <!-- title and favicon -->
-    <title>Web App</title>
-    <link rel="icon" type="image/x-icon" href="assets/alchemy-favicon.png" />
+        <!-- js -->
+        <script type="module" src="app.js"></script>
 
-    <!-- js -->
-    <script type="module" src="app.js"></script>
+        <!-- fonts -->
+        <!-- see https://fonts.google.com/ -->
 
-    <!-- fonts -->
-    <!-- see https://fonts.google.com/ -->
+        <!-- css -->
+        <link rel="stylesheet" href="styles/reset.css" />
+        <link rel="stylesheet" href="styles/global.css" />
+        <link rel="stylesheet" href="styles/style.css" />
+        <!-- add link for page specific css -->
+    </head>
 
-    <!-- css -->
-    <link rel="stylesheet" href="styles/reset.css" />
-    <link rel="stylesheet" href="styles/global.css" />
-    <!-- add link for page specific css -->
+    <body>
+        <header>
+            <img class="logo" src="assets/html_css_js.png" alt="logo" />
+            <h1>Shells game</h1>
+        </header>
 
-</head>
-
-<body>
-    <header>
-        <img class="logo" src="assets/html_css_js.png" alt="logo">
-        <h1>Web App</h1>
-    </header>
-
-    <main>
-
-    </main>
-
-</body>
-
+        <main>
+            <section class="shells">
+                <div class="shell">
+                    <img id="img-1" src="/assets/kitty.png" width="300px" />
+                    <div id="cat1" class="pearl"></div>
+                    <button id="button-1">Here</button>
+                </div>
+                <div class="shell">
+                    <img id="img-2" src="/assets/kitty.png" width="300px" />
+                    <div id="cat2" class="pearl"></div>
+                    <button id="button-2">Or Here</button>
+                </div>
+                <div class="shell">
+                    <img id="img-3" src="/assets/kitty.png" width="300px" />
+                    <div id="cat3" class="pearl"></div>
+                    <button id="button-3">Maybe Here</button>
+                </div>
+            </section>
+            <section class="stats">
+                <div class="stat">wins: <span id="wins">0</span></div>
+                <div class="stat">losses: <span id="losses">0</span></div>
+                <div class="stat">total: <span id="total">0</span></div>
+                <button id="reset">Reset</button>
+            </section>
+        </main>
+    </body>
 </html>
