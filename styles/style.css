@@ -28,6 +28,7 @@ button {
     justify-content: flex-end;
     position: relative;
     gap: 20px;
+    margin: 20px;
 }
 
 shell img {
